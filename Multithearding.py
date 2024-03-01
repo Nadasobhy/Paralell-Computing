@@ -2,7 +2,7 @@ import threading
 import time
 
 def cal_square(start,end):
-    for n in range (1,1000):
+    for n in range (1,10000):
         time.sleep(0.5)
         print("Square of", n, "is:", n * n)
 
